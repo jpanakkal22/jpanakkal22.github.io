@@ -1,47 +1,39 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Pupster
-      </Link>
-      <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Josh Panakkal</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="https://www.linkedin.com/in/josh-panakkal-6a0644a5/"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+          <a class="nav-item nav-link" href="https://github.com/jpanakkal22"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+          <a class="nav-item nav-link" href="Assets/Files/Resume.pdf"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item nav-link active">
+            <a class="nav-link" href="#">Home </a>
           </li>
-          <li className="nav-item">
-            <Link
-              to="/discover"
-              className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
-            >
-              Discover
-            </Link>
+          <li class="nav-item nav-link active">
+            <a class="nav-link" href="#">Portfolio</a>
           </li>
-          <li className="nav-item">
-            <Link
-              to="/search"
-              className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
-            >
-              Search
-            </Link>
+          <li class="nav-item nav-link active">
+            <a class="nav-link" href="#">Contact</a>
           </li>
+          
         </ul>
       </div>
     </nav>
+    
+    
   );
 }
 
