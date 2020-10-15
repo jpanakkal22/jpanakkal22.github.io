@@ -1,0 +1,11 @@
+.page-header {    
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid grey ;
+    color: white;
+  }
