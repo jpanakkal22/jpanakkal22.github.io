@@ -5,7 +5,7 @@ import "./style.css";
 function Navbar() {
   return (
     
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Josh Panakkal</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
@@ -32,6 +32,8 @@ function Navbar() {
         </ul>
       </div>
     </nav>
+
+    
     
     
   );

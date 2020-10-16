@@ -1,15 +1,21 @@
 import React from "react";
+import Wrapper from "./components/Wrapper";
 
-import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import About from "./pages/About/About";
 
 
 function App() {
   return (
    <div>    
-    <Header />
-    <Navbar/>   
+  
+    <Navbar/>    
+    <Wrapper>
+    
+    <About/>  
+    </Wrapper>
+    
     <Footer />  
    </div>     
   );
