@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-// import Profile from "/Images/profile-picture.jpg";
+import Profile from "./profile-picture.jpg";
 
-function About() {
+function Home() {
   return (
     <main className="container main">
       <header className="row">
@@ -12,7 +12,7 @@ function About() {
         </div>
       </header>      
       <div className="row">
-        <img className="col-md-3" src="/profile-picture.jpg" alt="Profile"/>
+        <img className="col-md-3 image" src={Profile} alt="Profile"/>
         
         <div className="col-md-9">
           <p className="para">Hello everyone! My name is Josh Panakkal, and I am from Cleveland, Ohio. I am married to my lovely wife Vino, and am a new, 
@@ -33,4 +33,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;

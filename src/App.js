@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
 import Project from "./components/Project";
@@ -22,10 +22,9 @@ class App extends Component {
       <div> 
         <Navbar/>    
         <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/portfolio" component={Portfolio}>
           <Portfolio>{this.state.projects.map(proj =>(
             <Project
             key={proj.id}
@@ -34,10 +33,14 @@ class App extends Component {
             hrefA={proj.hrefA}
             hrefB={proj.hrefB}
             />
-          ))}</Portfolio>
+          ))}</Portfolio> 
+          </Route>
+          <Route exact path="/contact" component={Contact} />          
         </Wrapper>
+        
         <Footer />  
-      </div>     
+      </div> 
+         
     </Router>
     );
   }

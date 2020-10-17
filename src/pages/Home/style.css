@@ -21,24 +21,18 @@ body {
     padding: 20px;
     border: 1px solid black;
     line-height: 200%;
+    color: white;
 }
 
-img {
+.image {
     padding: 10px;
+    height: 400px;
+    
 }
 
-.para2 {
+.para {
     font-size: 14px;
-}
-#name {
-    text-decoration: underline;
-    font-size: 16px;
-}
-.team {
-    height: 275px;
-}
-.card-img, .card-img-top {
-    height: 145px;
+    
 }
 
 /*Media Queries*/
