@@ -1,19 +1,18 @@
-/*Background image and styling*/
+Background image and styling*/
 
-/* body {
-    
+body {
+    background-image: url("/Images/close-up-of-wooden-plank-326311.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     font-family: Merriweather;
-} */
+} 
 
 /*Styling for main content*/
 
-/* .main {
-    
+.main {    
     background-color: #686868;
     opacity: 0.9;
     margin-top: 40px;
@@ -22,7 +21,11 @@
     padding: 20px;
     border: 1px solid black;
     line-height: 200%;
-} */
+}
+
+hr {
+    border-top: 1px solid white;
+}
 
 /*Media Queries*/
 

@@ -14,12 +14,10 @@ function Navbar() {
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <Link to="https://www.linkedin.com/in/josh-panakkal-6a0644a5/" className="nav-item nav-link"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></Link>
-          <Link to="https://github.com/jpanakkal22" className="nav-item nav-link"><i class="fa fa-github fa-lg" aria-hidden="true"></i></Link>
-          <Link to="Assets/Files/Resume.pdf" className="nav-item nav-link"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></Link>
-          {/* <a class="nav-item nav-link" href="https://www.linkedin.com/in/josh-panakkal-6a0644a5/"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
-          <a class="nav-item nav-link" href="https://github.com/jpanakkal22"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-          <a class="nav-item nav-link" href="Assets/Files/Resume.pdf"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a> */}
+          
+          <a class="nav-item nav-link" href="https://www.linkedin.com/in/josh-panakkal-6a0644a5/" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+          <a class="nav-item nav-link" href="https://github.com/jpanakkal22" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+          <a class="nav-item nav-link" href="/Assets/Resume.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
