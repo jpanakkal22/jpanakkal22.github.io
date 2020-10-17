@@ -1,18 +1,19 @@
 /*Background image and styling*/
 
-body {
-    background-image: url("/Images/close-up-of-wooden-plank-326311.jpg");
+/* body {
+    
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     font-family: Merriweather;
-}
+} */
 
 /*Styling for main content*/
 
-.main {
+/* .main {
+    
     background-color: #686868;
     opacity: 0.9;
     margin-top: 40px;
@@ -21,25 +22,7 @@ body {
     padding: 20px;
     border: 1px solid black;
     line-height: 200%;
-}
-
-img {
-    padding: 10px;
-}
-
-.para2 {
-    font-size: 14px;
-}
-#name {
-    text-decoration: underline;
-    font-size: 16px;
-}
-.team {
-    height: 275px;
-}
-.card-img, .card-img-top {
-    height: 145px;
-}
+} */
 
 /*Media Queries*/
 
