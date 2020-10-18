@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jpanakkal22.github.io/react_portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +16,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
-    
-  "homepage": "https://jpanakkal22.github.io/react_portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
