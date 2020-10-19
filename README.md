@@ -3,7 +3,7 @@
 ## Description
 This application creates a portfolio that is similar to my responsive portfolio application, but uses React, React Router and React Bootstrap for the UI. A user can navigate around the application to view a home page, portfolio with links to the Github project as well as GitHub Pages URL, and also a Contact Page.
 
-![React Portfolio](../public/Images/screenshot.PNG)
+![React Portfolio](/public/Images/screenshot.PNG)
 
 ## Table of Contents
 
