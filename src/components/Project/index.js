@@ -3,6 +3,7 @@ import {Col} from "react-bootstrap";
 import "./style.css";
 
 function Project(props){
+    console.log(props.image);
     return(
         <Col md={6} className="background">
         <div className="card">
