@@ -38,4 +38,4 @@ N/A
 
 You can also contact me at josh_panakkal3122@hotmail.com
 
-GitHub Pages: https://jpanakkal22.github.io/react_portfolio/ 
+GitHub Pages: https://jpanakkal22.github.io
