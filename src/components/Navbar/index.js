@@ -1,60 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Nav from 'react-bootstrap/Nav';
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
-  return (
-    
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
-      <Link to="/" className="navbar-brand">Josh Panakkal</Link>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          
-          <a class="nav-item nav-link" href="https://www.linkedin.com/in/josh-panakkal-6a0644a5/" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
-          <a class="nav-item nav-link" href="https://github.com/jpanakkal22" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-          <a class="nav-item nav-link" href="/Assets/Resume.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i></a>
-        </div>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item nav-link active">
-          <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/Home"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              Home
-          </Link>            
-          </li>
-          <li class="nav-item nav-link active">
-          <Link
-              to="/portfolio"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-            >
-              Portfolio
-          </Link>
-            
-          </li>
-          <li class="nav-item nav-link active">
-          <Link
-              to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
-          </Link>
-            
-          </li>          
-        </ul>
-      </div>
-    </nav>    
+  return (    
+    <Nav className="justify-content-around navbar">
+    <Nav.Item>
+      <Nav.Link eventKey="link-1">LinkedIn</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="link-2">GitHub</Nav.Link>
+    </Nav.Item>    
+  </Nav>   
   );
 }
 

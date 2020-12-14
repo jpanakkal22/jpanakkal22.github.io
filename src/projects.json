@@ -15,30 +15,31 @@
   },
   {
     "id": 3,
-    "name": "Work Day Scheduler",
-    "image": "/Images/work_day_scheduler.PNG",
-    "hrefA": "https://jpanakkal22.github.io/work_day_scheduler/",
-    "hrefB": "https://github.com/jpanakkal22/work_day_scheduler"
+    "name": "GoSee",
+    "image": "/Images/landing_page.png",
+    "hrefA": "https://drive.google.com/file/d/1uobxpsVA8hEQm2OuqaKmnqwvSZvfeNiI/view",
+    "hrefB": "https://github.com/jpanakkal22/employee_template_engine"
   },
   {
     "id": 4,
-    "name": "Employee Template Engine",
-    "image": "/Images/employee_template_engine.PNG",
+    "name": "Code Quiz",
+    "image": "/Images/code_quiz.PNG",
     "hrefA": "https://drive.google.com/file/d/1uobxpsVA8hEQm2OuqaKmnqwvSZvfeNiI/view",
     "hrefB": "https://github.com/jpanakkal22/employee_template_engine"
   },
   {
     "id": 5,
-    "name": "Team Project 1",
-    "image": "/Images/Speech-Text_WebPagePreview.png",
-    "hrefA": "https://jpanakkal22.github.io/team_project_1/",
-    "hrefB": "https://github.com/jpanakkal22/team_project_1"
+    "name": "Google Books Search",
+    "image": "/Images/google_books.PNG",
+    "hrefA": "https://drive.google.com/file/d/1uobxpsVA8hEQm2OuqaKmnqwvSZvfeNiI/view",
+    "hrefB": "https://github.com/jpanakkal22/employee_template_engine"
   },
   {
     "id": 6,
-    "name": "Team Project 2",
-    "image": "/Images/B&F-home.png",
-    "hrefA": "https://buildandflex.herokuapp.com/",
-    "hrefB": "https://github.com/jpanakkal22/team_project_2"
-  }  
+    "name": "Work Day Scheduler",
+    "image": "/Images/work_day_scheduler.PNG",
+    "hrefA": "https://drive.google.com/file/d/1uobxpsVA8hEQm2OuqaKmnqwvSZvfeNiI/view",
+    "hrefB": "https://github.com/jpanakkal22/employee_template_engine"
+  }
+   
 ]
