@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer container-fluid">
       <div className="row">
         <div className="col-md-12">
-        <h6><i class="fa fa-coffee" aria-hidden="true"></i> Enjoy!</h6>
+        <h6><i className="fa fa-coffee" aria-hidden="true"></i> Enjoy!</h6>
         </div>
       </div>      
     </footer>
