@@ -1,3 +1,29 @@
+.card {   
+  box-shadow: -10px 10px 10px #555;  
+}
+
 .card-img, .card-img-top {
     height: 175px;
+}
+
+#link1 {
+    padding: 7px;
+    background-color: darkgoldenrod;
+    color: white;
+    border-radius: 16px;   
+}
+
+#link1:hover {
+    
+}
+
+#link2 {
+    padding: 7px;
+    background-color: lightslategray;
+    color: white;
+    border-radius: 16px;   
+}
+
+#link2:hover {
+    
 }
