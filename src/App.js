@@ -23,6 +23,7 @@ function App() {
                 <Projects 
                 image={proj.image}
                 name={proj.name}
+                description={proj.description}
                 link1={proj.hrefB}
                 link2={proj.hrefA}
                 />                          
