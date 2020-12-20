@@ -1,0 +1,23 @@
+#contactPara {
+    line-height: 2.5;
+}
+
+svg {
+    margin-right: 5px;
+}
+
+.contactLink {
+    color: darkturquoise;
+    padding-right: 10px;
+}
+
+.fa-2x {
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 575px) {
+    #contactDiv {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
