@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Weather Dashboard",
+    "description": "Search current and forecasted weather conditions for a city using the 'OpenWeatherMap' API.",
     "image": "/Images/weather_dashboard.PNG",
     "hrefA": "https://jpanakkal22.github.io/weather_dashboard/",
     "hrefB": "https://github.com/jpanakkal22/weather_dashboard"
@@ -9,6 +10,7 @@
   {
     "id": 2,
     "name": "Password Generator",
+    "description": "Generate random passwords to protect your privacy. Answer questions to specify password criteria.",
     "image": "/Images/password_generator.PNG",
     "hrefA": "https://jpanakkal22.github.io/password_generator/",
     "hrefB": "https://github.com/jpanakkal22/password_generator"
@@ -16,30 +18,34 @@
   {
     "id": 3,
     "name": "GoSee",
+    "description": "Bootcamp group project / full stack application where users can sign up and view or post things about their travel destinations.",
     "image": "/Images/landing_page.png",
-    "hrefA": "https://drive.google.com/file/d/1uobxpsVA8hEQm2OuqaKmnqwvSZvfeNiI/view",
-    "hrefB": "https://github.com/jpanakkal22/employee_template_engine"
+    "hrefA": "https://github.com/jpanakkal22/GoSEE",
+    "hrefB": "https://go-see.herokuapp.com/"
   },
   {
     "id": 4,
     "name": "Code Quiz",
+    "description": "Test your knowledge in different categories using this Code Quiz. Race against the clock and try to answer all questions correctly!",
     "image": "/Images/code_quiz.PNG",
-    "hrefA": "https://drive.google.com/file/d/1uobxpsVA8hEQm2OuqaKmnqwvSZvfeNiI/view",
-    "hrefB": "https://github.com/jpanakkal22/employee_template_engine"
+    "hrefA": "https://github.com/jpanakkal22/code_quiz",
+    "hrefB": "https://jpanakkal22.github.io/code_quiz/"
   },
   {
     "id": 5,
     "name": "Google Books Search",
+    "description": "A full stack application that allows you to search the Google Books API, save books of your choice to a database, and retrieve/remove the saved books from your list.",
     "image": "/Images/google_books.PNG",
-    "hrefA": "https://drive.google.com/file/d/1uobxpsVA8hEQm2OuqaKmnqwvSZvfeNiI/view",
-    "hrefB": "https://github.com/jpanakkal22/employee_template_engine"
+    "hrefA": "https://github.com/jpanakkal22/google_books_search",
+    "hrefB": "https://fast-eyrie-18349.herokuapp.com/"
   },
   {
     "id": 6,
     "name": "Work Day Scheduler",
+    "description": "Use this work day planner to schedule important tasks in your workday. Cells are color coded to show past, present and future tasks.",
     "image": "/Images/work_day_scheduler.PNG",
-    "hrefA": "https://drive.google.com/file/d/1uobxpsVA8hEQm2OuqaKmnqwvSZvfeNiI/view",
-    "hrefB": "https://github.com/jpanakkal22/employee_template_engine"
+    "hrefA": "https://github.com/jpanakkal22/work_day_scheduler",
+    "hrefB": "https://jpanakkal22.github.io/work_day_scheduler/"
   }
    
 ]
