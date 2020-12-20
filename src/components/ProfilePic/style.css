@@ -1,4 +1,13 @@
 .img-thumbnail {
-    height: 300px;
-    width: 200px; 
+    width: 150px;     
+    margin-bottom: 25px;
 }
+
+#profPic {
+    padding: 0;
+    border: 0; 
+    filter: grayscale(40%);   
+}
+
+
+
