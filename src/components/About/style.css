@@ -1,0 +1,10 @@
+.footerPara {    
+    line-height: 2.5;
+}
+
+@media only screen and (max-width: 575px) {
+    #aboutDiv {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
