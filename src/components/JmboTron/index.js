@@ -5,6 +5,7 @@ import "./style.css";
 function JmboTron() {
     return (
         <Jumbotron className="mb-0 d-flex align-items-center">
+            <p id="credits">Photo By: Yarenci Hdz</p>
             <Container className="d-flex flex-column align-items-center text-center">
                 <h1>JOSH PANAKKAL</h1>
                 <p>FULL STACK WEB DEVELOPER</p>
