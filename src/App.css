@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+#mainDiv {
+  background-color: #dcdcdc;
+}
+
 .footerRow {
   background-color: #343a40;
   color: #adb5bd;
