@@ -13,13 +13,14 @@ function App() {
   const [project] = useState(data); 
 
   return (   
-    <div>      
+    <div id="mainDiv">      
       <JmboTron /> 
       <Container fluid>        
         <Row className="row1 mt-5">
+          
           {project.map(proj => {
             return (
-              <Col sm={3} className="d-flex justify-content-center p-3">
+              <Col sm={3} className="d-flex justify-content-center p-3" key={proj.id}>
                 <Projects 
                 image={proj.image}
                 name={proj.name}
