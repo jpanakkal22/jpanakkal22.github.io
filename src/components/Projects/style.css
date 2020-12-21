@@ -1,29 +1,28 @@
 .card {   
-  box-shadow: -10px 10px 10px #555;  
+  box-shadow: -10px 10px 10px #555;      
 }
 
 .card-img, .card-img-top {
     height: 175px;
+    border: none;
 }
 
-#link1 {
+.card-title {
+    text-decoration: underline;    
+}
+
+#link1, #link2 {
     padding: 7px;
     background-color: darkgoldenrod;
-    color: white;
-    border-radius: 16px;   
+    color: white;   
+    font-weight: bold;
+    border-radius: 10px; 
+    box-shadow: -5px 5px 5px #555;   
 }
 
-#link1:hover {
-    
+#link1:hover, #link2:hover {    
+    background-color:#666666;
 }
 
-#link2 {
-    padding: 7px;
-    background-color: lightslategray;
-    color: white;
-    border-radius: 16px;   
-}
 
-#link2:hover {
-    
-}
+
