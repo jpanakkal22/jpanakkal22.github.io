@@ -1,11 +1,17 @@
 .jumbotron {   
     background-image:url('./img/yarenci-hdz-Ufkv_10Jsu0-unsplash\ \(1\).jpg'); 
-    height: 50vh;       
+    height: 75vh;       
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    color: white;
-    position: relative;     
+    color: #ffffff;
+    position: relative; 
+    font-family: 'Audiowide', cursive;
+    letter-spacing: 3px;  
+    box-shadow: -10px 10px 10px #555;          
 }
 
+.container > h1 {
+    font-size: 3.0rem;
+}
 
