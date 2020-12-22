@@ -5,7 +5,7 @@ import "./style.css";
 
 function ProfilePic() {
     return (
-        <Image src={pic} thumbnail id="profPic" />       
+        <Image src={pic} alt="Profile Picture" thumbnail id="profPic" />       
     )
 }
 
