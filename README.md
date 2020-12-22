@@ -1,9 +1,9 @@
-# React: Portfolio
+# React Portfolio
 
 ## Description
-This application creates a portfolio that is similar to my responsive portfolio application, but uses React, React Router and React Bootstrap for the UI. A user can navigate around the application to view a home page, portfolio with links to the Github project as well as GitHub Pages URL, and also a Contact Page.
+This application is my portfolio built using React and React Bootstrap. Take a look around and check out some of my work!
 
-![React Portfolio](/public/Images/screenshot.PNG)
+![React Portfolio](/public/Images/readme_img.PNG)
 
 ## Table of Contents
 
@@ -16,10 +16,10 @@ This application creates a portfolio that is similar to my responsive portfolio 
 * [Questions](#questions)
 
 ## Installation
-Clone the repository and npm install dependencies to get started. Also make sure to run npm install --save react-bootstrap from the command line to install React Bootstrap. 
+Npm packages installed include Font-Awesome for React and React-Bootstrap.
 
 ## Usage
-Navigate around the application and check out some of my work! 
+View the application and source code of some of my projects. Check out my Github page or connect with me on LinkedIn.
 
 ## License
 N/A
