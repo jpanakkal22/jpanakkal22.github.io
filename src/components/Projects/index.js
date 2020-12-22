@@ -11,8 +11,8 @@ function Projects(props) {
         <Card.Text>{props.description}</Card.Text>
       </Card.Body>  
       <Card.Body>
-        <Card.Link href={props.link1} target="_blank" id="link1">GitHub</Card.Link>
-        <Card.Link href={props.link2} target="_blank" id="link2">View</Card.Link>
+        <Card.Link href={props.link1} target="_blank" id="link1" rel="noreferrer">GitHub</Card.Link>
+        <Card.Link href={props.link2} target="_blank" id="link2" rel="noreferrer">View</Card.Link>
       </Card.Body>
     </Card> 
   )    
