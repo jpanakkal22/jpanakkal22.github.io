@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'react-bootstrap/Image';
-import pic from "./profile-picture.jpg";
+import pic from "./profile-pictureA.jpg";
 import "./style.css";
 
 function ProfilePic() {
