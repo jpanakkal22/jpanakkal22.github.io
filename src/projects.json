@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Work Day Scheduler",
-    "description": "Use this day planner to schedule important tasks in your work day. Cells are color coded for past, present and future",
+    "description": "Use this day planner to schedule important tasks in your work day. Cells are color coded for past, present and future.",
     "image": "/Images/work_day_schedulerA.PNG",
     "hrefA": "https://jpanakkal22.github.io/work_day_scheduler/",
     "hrefB": "https://github.com/jpanakkal22/work_day_scheduler"

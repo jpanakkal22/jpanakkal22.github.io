@@ -9,26 +9,24 @@ import Footer from "./components/Footer";
 import data from "./projects.json";
 import "./App.css";
 
-function App() {
+const App = () => {
   const [project] = useState(data); 
 
   return (   
     <div id="mainDiv">      
       <JmboTron /> 
       <Container fluid>        
-        <Row className="row1 mt-5">
-          
+        <Row className="d-flex justify-content-center mt-5">          
           {project.map(proj => {
-            return (
-              <Col sm={3} className="d-flex justify-content-center p-3" key={proj.id}>
-                <Projects 
-                image={proj.image}
-                name={proj.name}
-                description={proj.description}
-                link1={proj.hrefB}
-                link2={proj.hrefA}
-                />                          
-              </Col>
+            return (              
+              <Projects 
+              key={proj.id}
+              image={proj.image}
+              name={proj.name}
+              description={proj.description}
+              link1={proj.hrefB}
+              link2={proj.hrefA}
+              />              
             )            
           })}     
         </Row>  
