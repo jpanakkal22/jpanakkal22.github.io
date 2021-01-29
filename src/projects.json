@@ -9,14 +9,6 @@
   },
   {
     "id": 2,
-    "name": "Password Generator",
-    "description": "Generate random passwords to protect your privacy. Answer questions to specify password criteria.",
-    "image": "/Images/password_generatorA.PNG",
-    "hrefA": "https://jpanakkal22.github.io/password_generator/",
-    "hrefB": "https://github.com/jpanakkal22/password_generator"
-  },
-  {
-    "id": 3,
     "name": "GoSee",
     "description": "Bootcamp group project / full stack application where users can sign up and view or post things about their travel destinations.",
     "image": "/Images/landing_pageA.png",
@@ -24,7 +16,7 @@
     "hrefB": "https://github.com/jpanakkal22/GoSEE"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Code Quiz",
     "description": "Test your knowledge in different categories using this Code Quiz. Race against the clock and try to answer all questions correctly!",
     "image": "/Images/code_quizA.PNG",
@@ -32,20 +24,11 @@
     "hrefB": "https://github.com/jpanakkal22/code_quiz"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Google Books Search",
     "description": "A full stack application that allows you to search the Google Books API, and save or remove your books in a MongoDB database.",
     "image": "/Images/google_booksA.PNG",
     "hrefA": "https://fast-eyrie-18349.herokuapp.com/",
     "hrefB": "https://github.com/jpanakkal22/google_books_search"
-  },
-  {
-    "id": 6,
-    "name": "Work Day Scheduler",
-    "description": "Use this day planner to schedule important tasks in your work day. Cells are color coded for past, present and future.",
-    "image": "/Images/work_day_schedulerA.PNG",
-    "hrefA": "https://jpanakkal22.github.io/work_day_scheduler/",
-    "hrefB": "https://github.com/jpanakkal22/work_day_scheduler"
-  }
-   
+  }   
 ]
