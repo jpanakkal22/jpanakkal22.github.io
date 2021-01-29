@@ -23,8 +23,11 @@
 }
 
 @media only screen and (max-width: 575px) {
+    .container > h1 {
+        font-size: 2.5rem;
+    }
     #credits {
-        right: 70px;
+        right: 65px;
     }
 }
 
