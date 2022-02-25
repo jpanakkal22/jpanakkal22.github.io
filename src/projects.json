@@ -38,5 +38,13 @@
     "image": "/Images/Tracker.PNG",
     "hrefA": "https://fierce-ridge-71465.herokuapp.com/",
     "hrefB": "https://github.com/jpanakkal22/cycle_tracker"
+  },
+  {
+    "id": 6,
+    "name": "Movies & Stars",
+    "description": "Users can search for their favorite movies, actors or check out the Top 250 Movies using the IMDb API. Built using React, NodeJS and IMDb API.",
+    "image": "/Images/movies_and_stars.PNG",
+    "hrefA": "https://fast-savannah-25463.herokuapp.com/",
+    "hrefB": "https://github.com/jpanakkal22/movies_and_stars"
   }  
 ]
